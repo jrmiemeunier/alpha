@@ -15,4 +15,3 @@ const sumAllOddFiboNumbers = (num) => {
   return oddNumbers;
 };
 
-sumAllOddFiboNumbers(10);
