@@ -1,10 +1,6 @@
 import json
 import os
 
-
-DATAS_CONFIG = "./loader/datas.json"
-
-
 class PlainDataLoader():
     def __init__(self, config_path: str=DATAS_CONFIG) -> None:
         self._path = config_path
